@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 class="primary-heading">Trade Analysis</h1>
+        <div class="grid grid-5-col pad16 gap16 trade-table">
+            <div class="credential flex flex-dir gap08">
+                <p class="head">Derivative</p>
+                <input type="text" name="stock" placeholder="Option/futures/intraday" class="input" >
+            </div>
+            <div class="credential  flex flex-dir gap08">
+                <p class="head">Stock name/ index</p>
+                <input type="text" name="stock" placeholder="Adani enterprices / NIFTYBANK" class="input" >
+            </div>
+            <div class="credential  flex flex-dir gap08">
+                <p class="head">Direction of trade</p>
+                <input type="text" name="stock" placeholder="Up trend" class="input" >
+            </div>
+            <div class="credential  flex flex-dir gap08">
+                <p class="head">Buy/Sell</p>
+                <input type="text" name="stock" placeholder="Up trend" class="input" >
+            </div>
+            <div class="credential  flex flex-dir gap08">
+                <p class="head">Entry</p>
+                <input type="text" name="stock" placeholder="789.68/-" class="input" >
+            </div>
+            <div class="credential  flex flex-dir gap08">
+                <p class="head">Exit</p>
+                <input type="text" name="stock" placeholder="800.68/-" class="input" >
+            </div>
+            <div class="credential  flex flex-dir gap08">
+                <p class="head">Stoploss</p>
+                <input type="text" name="stock" placeholder="780/-" class="input" >
+            </div>
+            <div class="credential  flex flex-dir gap08">
+                <p class="head">Target</p>
+                <input type="text" name="stock" placeholder="850/-" class="input" >
+            </div>
+            <div class="credential  flex flex-dir gap08">
+                <p class="head">Risk/Reward</p>
+                <input type="text" name="stock" placeholder="1:2" class="input" >
+            </div>
+            <div class="credential  flex flex-dir gap08">
+                <p class="head">Position size</p>
+                <input type="text" name="stock" placeholder="2 lot - 550" class="input" >
+            </div>
+            <div class="credential  flex flex-dir gap08">
+                <p class="head">Time of entry</p>
+                <input type="text" name="stock" placeholder="9:30" class="input" >
+            </div>
+            <div class="credential  flex flex-dir gap08">
+                <p class="head">Time of exit</p>
+                <input type="text" name="stock" placeholder="9:40" class="input" >
+            </div>
+            <div class="credential  flex flex-dir gap08">
+                <p class="head">Add to journal</p>
+                <button class="submit">Add Trade</button>
+            </div>
+        </div>
+
+        <div class="added-trades grid grid-2-col gap16">
+            <div class="cover --up flex flex-2">
+                <h1 class="primary-heading">Today's Trades</h1>
+                <button class="print">Print today report</button>
+            </div>
+            <div class="trade-cover grid grid-2-col gap16">
+                <div class="trades pad16 grid grid-2-col gap08 opacity">
+                    <p class="add">Derivative : <span>NIFTY50</span></p>
+                    <p class="add">Stock name : <span>NIFTY50</span></p>
+                    <p class="add">Direction of trade : <span>Up trend</span></p>
+                    <p class="add">Buy/Sell : <span>Buy</span></p>
+                    <p class="add">Entry : <span>50/-</span></p>
+                    <p class="add">Stoploss : <span>78</span></p>
+                    <p class="add">Target : <span>20</span></p>
+                    <p class="add">Risk/Reward : <span>1:2</span></p>
+                    <p class="add">Position size : <span>2 lot - 550</span></p>
+                    <p class="add">Time of entry : <span>9:15</span></p>
+                    <p class="add">Time of exit : <span>9:30</span></p>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js" async defer></script>
+    </body>
+</html>
